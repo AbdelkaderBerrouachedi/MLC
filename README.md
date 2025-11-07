@@ -1,19 +1,27 @@
+# Deep Ensemble Methods for Multi-label Classification
 
-# Multi-label Classification
+## Overview
+This repository contains the official implementation of:
+- **Deep ExtraTrees for Multi-label Classification (DET)**
+- **Deep Parallel ExtraTrees for Multi-label Classification**
 
-* Deep Parallel ExtraTrees  Multi-label Classification
+Novel layered ensemble frameworks that bridge the gap between traditional tree-based methods and deep learning architectures for multi-label classification tasks.
 
-* Deep ExtraTrees Multi-label Classification
+## Features
+- **Deep ExtraTrees (DET)**: Hierarchical ensemble architecture with prediction augmentation
+- **Multi-strategy Support**: Integration with Binary Relevance, Classifier Chains, and Label Powerset
+- **Computational Efficiency**: Deep learning performance with traditional method efficiency
+- **Interpretability**: Maintains tree-based model transparency
 
-========
+## Installation
 
-This is the official clone for the implementation of Deep Parallel ExtraTrees & Deep ExtraTrees.
+### Requirements
+- Python 3.7+
+- scikit-learn >= 1.0
+- scikit-multilearn
+- NumPy
+- SciPy
 
-This package is provided "AS IS" and free for academic usage. You can run it at your own risk. For other purposes, please contact Prof. Rakia JAZIRI <rakia.jaziri@univ-paris8.fr>
-
-                                       
-Requirements: This package is developed with Python 2.7, please make sure all the dependencies are installed,
-which is specified in requirements.txt 
-
-ATTN: This package was developed and maintained by Jaziri Rakia , Gilles Bernard, Berrouachedi Abdelkader .For any problem concerning the codes, please feel free to contact Mr.Berrouachedi.（a.berrouachedi@yahoo.fr , <abdelkader.berrouachedi@etud.univ-paris8.fr> ).
-
+### Install Dependencies
+```bash
+pip install -r requirements.txt
